@@ -1,4 +1,6 @@
-﻿
+﻿@using Shop.Data.Models
+@model IEnumerable<Car>
+
 @{
     Layout = null;
 }
@@ -11,5 +13,16 @@
     <title>List</title>
 </head>
 <body>
+    <h2> All cars </h2>
+    @{ 
+        foreach( var car in Model)
+        {
+    <div>
+        <h2>Модель: @car.name</h2>
+        <p>Цена: @car.price.ToString("c")</p>
+        
+    </div>
+        }
+    }
 </body>
 </html>
