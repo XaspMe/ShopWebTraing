@@ -1,30 +1,15 @@
-﻿@using Shop.ViewModels
-@model CarsListViewModel
+﻿
+<h1> Все автомобили </h1>
+<h3>@Model.currCategory</h3>
 
 @{
-    Layout = null;
+    foreach (var car in Model.AllCars)
+    {
+        <div>
+            <h2>Модель: @car.name</h2>
+            <p>Цена: @car.price.ToString("c")</p>
+
+        </div>
+    }
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>List</title>
-</head>
-<body>
-    <h1> Все автомобили </h1>
-    <h3>@Model.currCategory</h3>
-   
-    @{ 
-        foreach( var car in Model.AllCars)
-        {
-    <div>
-        <h2>Модель: @car.name</h2>
-        <p>Цена: @car.price.ToString("c")</p>
-        
-    </div>
-        }
-    }
-</body>
-</html>
