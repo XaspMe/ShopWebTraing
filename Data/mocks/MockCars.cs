@@ -21,7 +21,7 @@ namespace Shop.Data.mocks
                         name = "Tesla",
                         shortDesc = "ElonMusk",
                         longDesc = "Elon musk best car",
-                        img = "https://ih1.redbubble.net/image.633811757.1660/mp,840x830,matte,f8f8f8,t-pad,750x1000,f8f8f8.jpg",
+                        img = "/img/tesla.jpg",
                         price = 45_000,
                         isFavourite = true,
                         available = true,
@@ -29,10 +29,10 @@ namespace Shop.Data.mocks
                     },
 
                     new Car {
-                        name = "Nissan Cub",
+                        name = "Nissan Cube",
                         shortDesc = "Piece of shit",
                         longDesc = "Compact piece of god damn shit",
-                        img = "https://carimages.com.au/WER0Ij5MxoE-zenTZGQlpcfapTQ=/fit-in/800x540/filters:stretch(FFFFFF)/vehicles/used/2004/NISSAN/CUBE/2004-NISSAN-CUBE-used-1381-113-1.jpg",
+                        img = "/img/cube.jpg",
                         price = 1_000,
                         isFavourite = false,
                         available = true,
