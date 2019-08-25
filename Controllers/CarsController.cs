@@ -24,7 +24,7 @@ namespace Shop.Controllers
             CarsListViewModel obj = new CarsListViewModel();
             obj.AllCars = _allCars.Cars;
             obj.currCategory = "Aвтомобили";
-            return View(obj);
+            return View(obj); 
         }
     }
 }
