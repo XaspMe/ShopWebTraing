@@ -37,6 +37,17 @@ namespace Shop.Data.mocks
                         isFavourite = false,
                         available = true,
                         Category = _categoryCars.AllCategories.Last()
+                    },
+
+                    new Car {
+                        name = "Porsche 918 Spyder",
+                        shortDesc = "Stylish and bright",
+                        longDesc = "For confident riders",
+                        img = "/img/porsche.jpg",
+                        price = 57_000,
+                        isFavourite = false,
+                        available = true,
+                        Category = _categoryCars.AllCategories.Last()
                     }
                 };
             }
