@@ -48,6 +48,17 @@ namespace Shop.Data.mocks
                         isFavourite = false,
                         available = true,
                         Category = _categoryCars.AllCategories.Last()
+                    },
+
+                     new Car {
+                        name = "Lamborghini Gallardo",
+                        shortDesc = "Beautiful",
+                        longDesc = "Sport car",
+                        img = "/img/lamba.jpg",
+                        price = 12_000,
+                        isFavourite = false,
+                        available = true,
+                        Category = _categoryCars.AllCategories.Last()
                     }
                 };
             }
