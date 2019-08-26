@@ -30,8 +30,8 @@ namespace Shop.Data.mocks
 
                     new Car {
                         name = "Nissan Cube",
-                        shortDesc = "Piece of shit",
-                        longDesc = "Compact piece of god damn shit",
+                        shortDesc = "Good car for big family",
+                        longDesc = "Compact, cheep, roomy car",
                         img = "/img/cube.jpg",
                         price = 1_000,
                         isFavourite = false,
